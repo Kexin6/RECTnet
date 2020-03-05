@@ -28,7 +28,7 @@ torch.manual_seed(1) # set the random seed
 from torchvision import datasets, transforms
 
 # PATH_OF_DATA = "/content/drive/My Drive/APS360/Emotion_Detection_CNN"
-PATH_OF_DATA = "/Users/kexinli/PycharmProjects/RECTnet/base_img"
+PATH_OF_DATA = "/base_img"
 
 ###############################################################################
 
@@ -354,7 +354,7 @@ alexnet = torchvision.models.alexnet(pretrained=True)
 
 # location on Google Drive
 # master_path = '/content/drive/My Drive/APS360/Emotion_Detection_CNN'
-master_path = '/Users/kexinli/PycharmProjects/RECTnet/base_img'
+master_path = '/base_img'
 # Prepare Dataloader (requires code from 1.)
 train_loader, val_loader, test_loader, classes = get_data_loader( 
       PATH_OF_DATA,
@@ -396,7 +396,7 @@ for img, label in test_loader:
   n += 1
 
 def get_feature_loader(batch_size):
-  master_path = '/Users/kexinli/PycharmProjects/RECTnet/base_img'
+  master_path = '/base_img'
   train_set = torchvision.datasets.DatasetFolder(master_path+"/train", loader=torch.load, extensions=('.tensor'))
   val_set = torchvision.datasets.DatasetFolder(master_path+"/val", loader=torch.load, extensions=('.tensor'))
   test_set = torchvision.datasets.DatasetFolder(master_path+"/test", loader=torch.load, extensions=('.tensor'))
