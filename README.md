@@ -29,7 +29,7 @@ Final model (second version) - transfer learning with concatenation of different
 
 ## Authors
 
-See also the list of [contributors](https://github.com/RECTnet/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Kexin6/RECTnet/contributors) who participated in this project.
 
 ## License
 
