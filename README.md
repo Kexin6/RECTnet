@@ -3,7 +3,7 @@ Emotion detection AI model developed by Rain, Evan, Cassie and Tim (RECT).
 
 ## Getting Started
 
-Web-app is available at: [HERE](RECTnet.ml/demo) 
+Web-app is available at: [HERE](http://RECTnet.ml/demo) 
 
 Face detection is also available in this application.
 
